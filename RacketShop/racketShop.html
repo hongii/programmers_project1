@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Racket Shop</title>
+    <style>
+      body {
+        margin: 0;
+        box-sizing: border-box;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      }
+
+      h1 {
+        text-align: center;
+        margin: 0;
+      }
+
+      section {
+        padding-bottom: 10px;
+      }
+      .text_welcome,
+      .order_link {
+        text-align: center;
+        margin-bottom: 50px;
+      }
+
+      .order_link {
+        text-align: center;
+        margin-bottom: 50px;
+        font-size: 25px;
+      }
+
+      .order_link a {
+        color: #666;
+        text-decoration: none;
+      }
+
+      .order_link a:hover {
+        font-weight: bold;
+      }
+
+      .cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 50px 10px;
+        justify-items: center;
+        align-items: center;
+      }
+
+      .card {
+        text-align: center;
+        width: 200px;
+      }
+
+      .card_title {
+        font-size: 20px;
+      }
+
+      .card_btn {
+        font-size: 25px;
+        width: 150px;
+        height: 30px;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        border-radius: 5px;
+        background-color: #666;
+        color: #ececec;
+        cursor: pointer;
+      }
+
+      .card_img {
+        width: 200px;
+      }
+    </style>
+    <!-- <link rel="stylesheet" href="./main.css" /> -->
+  </head>
+  <body>
+    <h1>Tennis Market</h1>
+    <section>
+      <p class="text_welcome">
+        Welcome to Tennis Market👋🏻 <br />
+        Enjoy your shoping😊
+      </p>
+      <div class="order_link">
+        <a href="./orderlist.html">☛order list</a>
+      </div>
+
+      <div class="cards">
+        <div class="card">
+          <img class="card_img" src="../images/redRacket.png" />
+          <p class="card_title">Red Racket</p>
+          <button class="card_btn" onclick="location.href='./orderlist.html'">
+            order
+          </button>
+        </div>
+        <div class="card">
+          <img class="card_img" src="../images/blueRacket.png" />
+          <p class="card_title">Blue Racket</p>
+          <button class="card_btn" onclick="location.href='./orderlist.html'">
+            order
+          </button>
+        </div>
+        <div class="card">
+          <img class="card_img" src="../images/blackRacket.png" />
+          <p class="card_title">Black Racket</p>
+          <button class="card_btn" onclick="location.href='./orderlist.html'">
+            order
+          </button>
+        </div>
+
+        <div class="card">
+          <img class="card_img" src="../images/pinkRacket.png" />
+          <p class="card_title">Pink Racket</p>
+          <button class="card_btn" onclick="location.href='./orderlist.html'">
+            order
+          </button>
+        </div>
+        <div class="card">
+          <img class="card_img" src="../images/orangeRacket.png" />
+          <p class="card_title">Orange Racket</p>
+          <button class="card_btn" onclick="location.href='./orderlist.html'">
+            order
+          </button>
+        </div>
+        <div class="card">
+          <img class="card_img" src="../images/deepBlueRacket.png" />
+          <p class="card_title">Deep Blue Racket</p>
+          <button class="card_btn" onclick="location.href='./orderlist.html'">
+            order
+          </button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
